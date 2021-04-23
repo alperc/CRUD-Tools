@@ -16,7 +16,7 @@ namespace CRUD.Repostory
         public static string _orderColon = "OLUSTURMA_TARIHI";  // Varsayılan sıralama kolonu
         public static string _orderBy = "DESC";                 // Varsayılan sıralama şartı.
 
-        public static Models.Blog _model = new Models.Blog();   // Modelimiz.
+        public static Models.Blog _model = new Models.Blog();   // Modelimiz. // boşta. gereksiz gibi.
         public static string _primary = "KOD";                  // Birincil anahtarımız.
         public static string[] _colons = _model.COLONS;         // Model'den gelen table kolonları.
         public static string _select, _update, _insert;         // Dinamik query'ler
